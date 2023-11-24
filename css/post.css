@@ -1,0 +1,15 @@
+
+.full-post-box {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+}
+
+.post-content {
+    max-width: 800px;
+}
+
+.full-post-box > .post-title {
+    margin-bottom: 0.2em;
+}

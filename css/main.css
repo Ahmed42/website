@@ -1,0 +1,84 @@
+
+body {
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    font-weight: normal; 
+}
+
+a {
+    all: unset;
+}
+
+nav {
+    background-color: ghostwhite;
+    padding: 20px;
+}
+
+.website-title {
+    font-size: 1.3em;
+    /*font-weight: bold;*/
+    cursor: pointer;
+}
+
+.main {
+    /*margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;*/
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    color: darkslateblue;
+    font-size: 1.5em;
+}
+
+.bio {
+    border-bottom: 1px solid lightsteelblue;
+    padding-bottom: 20px;
+    max-width: 600px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+.post-box {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightsteelblue;
+    max-width: 600px;
+}
+
+.post-title {
+    font-size: 1.7em;
+    color: darkslateblue;
+}
+
+.post-box > .post-title {
+    margin-bottom: 0.2em;
+    display: block;
+    cursor: pointer;
+}
+
+.post-date {
+    font-size: 1.0em;
+    color: lightslategray;
+}
+
+
